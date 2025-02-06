@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Kimi Paper Analyzer",
+  "version": "1.0",
+  "description": "Analyze academic papers using Kimi AI.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "cat.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon.png"
+  }
+}

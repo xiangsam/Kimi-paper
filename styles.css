@@ -1,0 +1,40 @@
+/* Joy 图标样式 */
+#joy-icon {
+  transition: transform 0.2s ease;
+}
+
+#joy-icon:hover {
+  transform: scale(1.1);
+}
+
+/* 悬浮窗样式 */
+#kimi-popup {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* 聊天气泡样式 */
+#chat-bubble {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 10000;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+#close-bubble {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #666;
+}
+
+#close-bubble:hover {
+  color: #333;
+}
